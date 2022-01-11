@@ -10,9 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Image(systemName:"heart.fill")
-            Text("Hello, World!")
+        
+        VStack {
+            HStack {
+                Image(systemName:"heart.fill")
+                Text("Hello, World!")
+            }
+            Text("Feature chat added")
         }
     }
 }
